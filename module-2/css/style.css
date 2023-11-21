@@ -1,0 +1,103 @@
+.card-1,
+.card-2,
+.card-3 {
+    background-color: grey;
+    width: 32%;
+    height: max-content;
+    border: 2px solid #000;
+    position: relative;
+    margin: 0 5px;
+    float: left;
+}
+
+.title-detail-1 {
+    background-color: pink;
+    border: 2px solid #000;
+    border-right: none;
+    border-top: none;
+    padding: 10px 20px;
+    text-align: center;
+    width: max-content;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title-detail-2 {
+    background-color: red;
+    border: 2px solid #000;
+    border-right: none;
+    border-top: none;
+    padding: 10px 20px;
+    text-align: center;
+    width: max-content;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title-detail-3 {
+    background-color: yellow;
+    border: 2px solid #000;
+    border-right: none;
+    border-top: none;
+    padding: 10px 20px;
+    text-align: center;
+    width: max-content;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title-1 {
+    width: 100%;
+    display: flex;
+    justify-items: end;
+    justify-content: end;
+}
+
+.description {
+    padding: 10px;
+}
+
+.content {
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .content {
+        box-sizing: border-box;
+    }
+    .card-1 {
+        width: 50%;
+        float: left;
+    }
+
+    .card-2 {
+        width: 46%;
+    }
+
+    .card-3 {
+        width: 98%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .content {
+        box-sizing: border-box;
+    }
+    .card-1 {
+        width: 97%;
+        float: left;
+    }
+
+    .card-2 {
+        width: 97%;
+        margin-top: 20px;
+    }
+
+    .card-3 {
+        width: 97%;
+        margin-top: 20px;
+    }
+}
